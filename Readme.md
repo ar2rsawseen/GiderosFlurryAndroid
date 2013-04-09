@@ -1,16 +1,7 @@
-*************************************************************
-* This script is developed by Arturs Sosins aka ar2rsawseen, http://appcodingeasy.com
-* Feel free to distribute and modify code, but keep reference to its creator
-*
-* Flurry plugin for Android is an analog plugin as for IOS with Gideros release
-*
-* For more information, examples and online documentation visit: 
-* http://appcodingeasy.com/Gideros-Mobile/Flurry-plugin-for-Android
-**************************************************************
-
 PLUGIN INSTALLATION
 
-Download Flurry SDK and include it in your project
+Download Flurry SDK and include it in your project. To do that, right click on project and select properties, from there select "Java Build Path" and click on "Add External JARs..." and navigate to downloaded SDK jar file.
+Then go to Order and Export tab and check added Flurry SDK jar file.
 
 Put libflurry.so files to according directories of your exported Gideros project (libs/armeabi and libs/armeabi-v7a)
 
